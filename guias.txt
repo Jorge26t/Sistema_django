@@ -1,0 +1,34 @@
+para crea entorno virtual
+python -m venv   escribir el nombre --> 'env'
+
+para instalra django
+pip install django
+
+para craer la applicacion en django
+django-admin startproject app
+
+correo aplicacion 
+python manage.py runserver
+
+driver de la base de datos postgreSQL 
+pip install psycopg2
+
+importar migraciones 
+python manage.py migrate 
+
+para cambiar las miigraciones 
+python manage.py makemigrations
+python manage.py migrate
+opción 1 y luego 2
+
+impotar los modulos
+pip freeze > requiriments.txt
+
+para crear la aplicacion dentro de la carpeta core 
+python ../manage.py startapp erp 
+
+las imagenes necesitan esta libreria
+pip install Pillow
+
+clave ssh 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCzgrQ+v0t/eSEUnJh1DN/eDXclBpDVLwiESwN3Rbc9oGJR/+deVmzoAfEmUMfBzCGo30kT2EHQ93vrOtYBiEmNwocZvWQnXQ18JXfMMKce5pxrOPW8DY6SJzBNJm6VtA5RMoFCa5A0nGjy7LPoCl9EzazfFZfaH+mB0wfvC6HX4+5AUqO4zc5cIEJb9lyMAT7ZVvPhNNJs1GPyuPhLzxBlMLyYvUHqdnTynPWwLhKas4SH8PmjnATGcVcDGBS4OoUhrJhKuL9uHbt0cRfghVq6YTcv4M/iPfvm4fvkPeSgjOB//VQrfhL1jdORLrS9ur7i09mjJ2P28EI0HoonL4t3pDLhubgGyOMxxpP2bSN6JSVhfX7cZ77imFBYuUydUnvZyHqrr4G23Fsi69ZiP6Q9C6ZmaN5Xw5GTj7I3DMHr5YMq6G+lTdCztBTEBzXjXLJ908enpsIQ5x7T1vKGd29InIV4+0DOka6DsIpm5k5zjLxt0ywRk32Wtpe2Cc4P/HY44sMhnRiCIC/rl6YhDvRImLz/qaNV/Rzoe08FVjAbXzVZD2UTRjCOnyDbSi840Fkf9g3ys9uDelVHb9Y+FHuc8OfXSBQZns6D6348gcZTSAjH4DCzN31eDw2JjZ324Lcv8TspoeTNWOzgZwasw1VS407LOkAg0U91DcsYinoULQ== Jorge@Jorge
